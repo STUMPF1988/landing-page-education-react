@@ -1,6 +1,6 @@
 import Main from '../../components/main/Main';
 
-function home() {
+function Home() {
   return (
     <Main>
       <div className="container">
@@ -10,4 +10,4 @@ function home() {
   );
 }
 
-export default home;
+export default Home;

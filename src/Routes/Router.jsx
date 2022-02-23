@@ -1,6 +1,7 @@
-import {BrowseRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from './../pages/home/Home'
 
-export const Router =()=>{
+const Router =()=>{
     return (
         <BrowserRouter>
             <Routes>
@@ -9,3 +10,5 @@ export const Router =()=>{
         </BrowserRouter>
     )
 }
+
+export default Router
