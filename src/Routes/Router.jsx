@@ -1,14 +1,15 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Home from './../pages/home/Home'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from '../pages/home/Home';
 
-const Router =()=>{
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path='/*' element={<Home />}/>
-            </Routes>
-        </BrowserRouter>
-    )
-}
+// eslint-disable-next-line react/function-component-definition
+const Router = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/*" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-export default Router
+export default Router;

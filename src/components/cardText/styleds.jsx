@@ -1,17 +1,31 @@
 import styled from 'styled-components';
+import myImage from '../../pages/home/components/images/global.png';
 
 const StyledCardtext = styled.div`
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   height: 28.5rem;
   width: 50%;
-  background-color: #ffffff;
-  color: #000000;
+  background: #000000 url(${myImage}) no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: #ffffff;
 
+  h3,
   p {
-    padding: 0 1.5rem;
-    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+
     font-weight: bold;
+  }
+  h3 {
+    color: #23a6d5;
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 1.2rem;
   }
 `;
 

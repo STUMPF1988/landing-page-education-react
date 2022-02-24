@@ -1,6 +1,7 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
 *{
   margin:0px;
   padding:0px;
@@ -8,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
 body {
 	 overflow-x: hidden;
   width:100vw;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #ee7752, #61e73c, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 

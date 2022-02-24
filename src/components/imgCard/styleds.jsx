@@ -1,15 +1,22 @@
 import styled from 'styled-components';
 
 const StyledImgCard = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 28.5rem;
   width: 50%;
-  background-color: #ff9900;
+  background-color: #000000;
   color: #fff;
-  margin: 0;
-  padding: 0;
+
   img {
-    height: 28.5rem;
-    width: 100%;
+    height: 80%;
+    width: 90%;
+    border-radius: 20px;
+    transition: transform 5s;
+    :hover {
+      transform: rotateY(180deg);
+    }
   }
 `;
 
